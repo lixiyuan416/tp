@@ -313,3 +313,10 @@ Expected: the program will warn the user, and asks for confirmation from the use
 e.g. `open something` or `delete 1000` when only 2 trips are stored.)
 <br>
 Expected: An error will inform the user that the trip number does not exist.
+
+
+#### Creating Expense
+- Create an expense inside a trip. When prompted for date, enter an input like `testing123`, or enter an invalid date like `31-02-2021`
+<br>
+  Expected: Program will prompt you to re-enter date in DD-MM-YYYY format
+  
